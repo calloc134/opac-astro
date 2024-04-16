@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Kaisei Opti", ...defaultTheme.fontFamily.sans],
+        sans: ["Klee One", ...defaultTheme.fontFamily.sans],
       },
     },
   },

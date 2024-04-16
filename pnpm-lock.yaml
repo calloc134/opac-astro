@@ -17,12 +17,12 @@ dependencies:
   '@biomejs/biome':
     specifier: ^1.7.0
     version: 1.7.0
-  '@fontsource/kaisei-opti':
+  '@fontsource/klee-one':
     specifier: ^5.0.12
     version: 5.0.12
-  '@fontsource/twinkle-star':
-    specifier: ^5.0.19
-    version: 5.0.19
+  '@fontsource/nunito':
+    specifier: ^5.0.17
+    version: 5.0.17
   '@types/react':
     specifier: ^18.2.79
     version: 18.2.79
@@ -974,12 +974,12 @@ packages:
     dev: false
     optional: true
 
-  /@fontsource/kaisei-opti@5.0.12:
-    resolution: {integrity: sha512-2rEni3IAYa/nNNb7OHH/sggTm3v1V3TQSK7BEMIE0jCXtqeDm7YotL3Ji0HSUITDNIKGCMd20bcxAjQNoYc9Ag==}
+  /@fontsource/klee-one@5.0.12:
+    resolution: {integrity: sha512-AVcEYL10x7chFWDZdS9e3hwofTse/kBSp3o9hL02KfGG/C7VKM/DrgyvznR8UAnXJnql/Ify/2wj3+GJc3gKBA==}
     dev: false
 
-  /@fontsource/twinkle-star@5.0.19:
-    resolution: {integrity: sha512-Ea0wV0BbXWS6tys8hcjViCOaSNh1ZDk0CbheMao+/VFHKZy1UB19LHHrCxksMgWxVIlu0N8+xGWj29rzBaAfhQ==}
+  /@fontsource/nunito@5.0.17:
+    resolution: {integrity: sha512-1O8tFQImUR66MUZ8UGHmN1dveFzLXJhrGKBH7us2zXYe6juk0fPcV0uVvJEIyW8BsevEZMuExZhpGFiTy/g61Q==}
     dev: false
 
   /@isaacs/cliui@8.0.2:

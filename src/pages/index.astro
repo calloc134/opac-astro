@@ -1,13 +1,37 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-	<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-</main>
+  <main>
+    <section class="flex flex-col items-center h-screen">
+      <div
+        class="flex flex-row border rounded-3xl px-4 py-8 break-words bg-white gap-4"
+      >
+        <img
+          class="w-1/3 md:w-1/3 rounded-xl overflow-hidden shadow-lg"
+          src="https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=1d77c400254a489b9018d7fb79a67109&txtl=jpn"
+        />
+        <div class="flex flex-col gap-4 justify-between">
+          <div>
+            <h1 class="text-md sm:text-2xl md:text-4xl font-bold">
+              UMLの仕組みと実装がしっかりわかる教科書
+            </h1>
+          </div>
+          <div class="flex flex-col gap-1">
+            <div
+              class="flex rounded-full bg-blue-500 text-white justify-end px-8 text-sm md:text-xl"
+            >
+              <div>返却日時: ○日</div>
+            </div>
+            <div
+              class="flex rounded-full bg-black text-white justify-end px-8 text-sm md:text-xl"
+            >
+              <div>期限: あと○日</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </Layout>
