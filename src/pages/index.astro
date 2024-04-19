@@ -1,17 +1,31 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import json from "../../output.example.json";
+
+const calcRemainingDays = (return_date: string) => {
+  const today = new Date();
+  const returnDate = new Date(return_date);
+  const diffDays = Math.ceil(
+    (returnDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
+  );
+  return diffDays;
+};
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
     <section class="flex flex-col items-center h-screen">
-      <Card
-        title="今日はいい天気です。"
-        image_url="https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=1d77c400254a489b9018d7fb79a67109&txtl=jpn"
-        returnDate="20"
-        deadline="2021-10-01"
-      />
+      {
+        json.map(({ detail, return_date, image_url }) => (
+          <Card
+            title={detail}
+            return_date={return_date}
+            image_url={image_url}
+            remaining_days={calcRemainingDays(return_date)}
+          />
+        ))
+      }
     </section>
   </main>
 </Layout>

@@ -1,12 +1,12 @@
 ---
 interface Props {
   title: string;
-  returnDate: string;
-  deadline: string;
+  remaining_days: number;
+  return_date: string;
   image_url: string;
 }
 
-const { title, returnDate, deadline, image_url }: Props = Astro.props;
+const { title, remaining_days, return_date, image_url }: Props = Astro.props;
 ---
 
 <div class="w-full flex flex-row border rounded-3xl px-4 py-8 bg-white gap-4">
@@ -22,14 +22,14 @@ const { title, returnDate, deadline, image_url }: Props = Astro.props;
         class="w-full flex rounded-full bg-blue-500 text-white justify-between px-8 text-sm md:text-xl flex-row gap-1"
       >
         <div>返却日時</div>
-        <div>{deadline}日</div>
+        <div>{return_date}</div>
       </div>
       <div
         class="w-full flex rounded-full bg-black text-white justify-between px-8 text-sm md:text-xl flex-row gap-1"
       >
         <div>期限</div>
         <div>
-          あと{returnDate}日
+          あと{remaining_days}日
         </div>
       </div>
     </div>
