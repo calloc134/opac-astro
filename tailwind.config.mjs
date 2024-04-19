@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Klee One", ...defaultTheme.fontFamily.sans],
+        sans: ["Zen Kaku Gothic New", ...defaultTheme.fontFamily.sans],
       },
     },
   },

@@ -17,12 +17,9 @@ dependencies:
   '@biomejs/biome':
     specifier: ^1.7.0
     version: 1.7.0
-  '@fontsource/klee-one':
-    specifier: ^5.0.12
-    version: 5.0.12
-  '@fontsource/nunito':
-    specifier: ^5.0.17
-    version: 5.0.17
+  '@fontsource/zen-kaku-gothic-new':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@types/react':
     specifier: ^18.2.79
     version: 18.2.79
@@ -35,6 +32,9 @@ dependencies:
   astro:
     specifier: ^4.6.1
     version: 4.6.1(typescript@5.4.5)
+  framer-motion:
+    specifier: ^11.1.5
+    version: 11.1.5(react-dom@18.2.0)(react@18.2.0)
   pnpm:
     specifier: ^8.15.7
     version: 8.15.7
@@ -974,12 +974,8 @@ packages:
     dev: false
     optional: true
 
-  /@fontsource/klee-one@5.0.12:
-    resolution: {integrity: sha512-AVcEYL10x7chFWDZdS9e3hwofTse/kBSp3o9hL02KfGG/C7VKM/DrgyvznR8UAnXJnql/Ify/2wj3+GJc3gKBA==}
-    dev: false
-
-  /@fontsource/nunito@5.0.17:
-    resolution: {integrity: sha512-1O8tFQImUR66MUZ8UGHmN1dveFzLXJhrGKBH7us2zXYe6juk0fPcV0uVvJEIyW8BsevEZMuExZhpGFiTy/g61Q==}
+  /@fontsource/zen-kaku-gothic-new@5.0.18:
+    resolution: {integrity: sha512-8D21LtQBwgCiQgnxVoST14p/+nje7rZ51Fi3Z3IpShiOLUJy4WF1nSzBXLeLle0tilFcFfzEC0zSS1xqvkULgA==}
     dev: false
 
   /@isaacs/cliui@8.0.2:
@@ -2187,6 +2183,25 @@ packages:
 
   /fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
+    dev: false
+
+  /framer-motion@11.1.5(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ogK5fc0GBUT3AjzMXPx7f74m5V1ByRqkKQARBVHpdkYTNDxb/WriANYD+5JBo1wklQQJ1HayDZtmofQLqZFcbw==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      tslib: 2.6.2
     dev: false
 
   /fs-constants@1.0.0:
@@ -4149,6 +4164,10 @@ packages:
         optional: true
     dependencies:
       typescript: 5.4.5
+    dev: false
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
   /tsx@4.7.2:
