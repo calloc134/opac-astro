@@ -1,74 +1,11 @@
 [
   {
-    "detail": "Dockerから入るKubernetes : 15Stepで習得 : コンテナ開発からK8s本番運用まで / 高良真穂著. -- リックテレコム, 2019. -- (Step UP!選書).",
-    "campus": "本館",
+    "detail": "サンプルです ダミー",
+    "campus": "",
     "lend_date": "2024/04/08",
     "return_date": "2024/04/22",
-    "book_id": "1414083",
+    "book_id": "",
     "status": "",
     "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=bae363e42c4787a272551594bfd5ddaf"
-  },
-  {
-    "detail": "データ指向アプリケーションデザイン : 信頼性、拡張性、保守性の高い分散システム設計の原理 / Martin Kleppmann著 ; 玉川竜司訳. -- オライリー・ジャパン, 2019.",
-    "campus": "本館",
-    "lend_date": "2024/01/09",
-    "return_date": "2024/04/23",
-    "book_id": "1392870",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=3106c19f85d04fda809662888409139e"
-  },
-  {
-    "detail": "Tailwind CSS実践入門 / 工藤智祥著. -- 技術評論社, 2024. -- (エンジニア選書).",
-    "campus": "本館",
-    "lend_date": "2024/02/24",
-    "return_date": "2024/04/23",
-    "book_id": "1418334",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=1d77c400254a489babccb21bd3cfb511"
-  },
-  {
-    "detail": "フロントエンド開発のためのテスト入門 : 今からでも知っておきたい自動テスト戦略の必須知識 / 吉井健文著. -- 翔泳社, 2023.",
-    "campus": "本館",
-    "lend_date": "2024/04/10",
-    "return_date": "2024/04/24",
-    "book_id": "1417119",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=05bdd66bd96b3d2f17b27d8481115c0c"
-  },
-  {
-    "detail": "システム設計の面接試験 / アレックス・シュウ 著 ; イノウ 訳. -- ソシム, 2023.",
-    "campus": "本館",
-    "lend_date": "2024/04/10",
-    "return_date": "2024/04/24",
-    "book_id": "1414991",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=4c003474deb583236078db6f8f2bb8cc"
-  },
-  {
-    "detail": "Kubernetesの知識地図 : 現場での基礎から本番運用まで / 青山真也 [ほか] 著. -- 技術評論社, 2023.",
-    "campus": "本館",
-    "lend_date": "2024/04/10",
-    "return_date": "2024/04/24",
-    "book_id": "1417054",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=1d77c400254a489bd834fd46f29b9667"
-  },
-  {
-    "detail": "達人が教えるWebパフォーマンスチューニング : ISUCONから学ぶ高速化の実践 / 藤原俊一郎 [ほか] 著. -- 技術評論社, 2022.",
-    "campus": "本館",
-    "lend_date": "2024/04/02",
-    "return_date": "2024/04/30",
-    "book_id": "1410856",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=1d77c400254a489bf0fd598e83e4aba9"
-  },
-  {
-    "detail": "ドメイン駆動設計入門 : ボトムアップでわかる!ドメイン駆動設計の基本 / 成瀬允宣著. -- 翔泳社, 2020.",
-    "campus": "本館",
-    "lend_date": "2024/04/02",
-    "return_date": "2024/04/30",
-    "book_id": "1399866",
-    "status": "",
-    "image_url": "https://mylib.meijo-u.ac.jp/webopac/imgview.do?isbn=05bdd66bd96b3d2fb18afdf3fdf5cb6d"
   }
 ]
