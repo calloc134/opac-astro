@@ -17,9 +17,10 @@ const calcRemainingDays = (return_date: string) => {
   <main>
     <section class="flex flex-col items-center h-screen gap-4">
       {
-        json.map(({ detail, return_date, image_url }) => (
+        json.map(({ detail, return_date, image_url, lend_date }) => (
           <Card
             title={detail}
+            lend_date={lend_date}
             return_date={return_date}
             image_url={image_url}
             remaining_days={calcRemainingDays(return_date)}
